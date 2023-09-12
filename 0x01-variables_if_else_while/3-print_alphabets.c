@@ -13,13 +13,13 @@ int main(void)
 	while (ch <= 'z')
 	{
 		putchar(ch);
-		ch++
+		ch++;
 	}
 	/*print uppercase*/
 	while (CH <= 'Z')
 	{
 		putchar(CH);
-		CH++
+		CH++;
 	}
 	putchar('\n');
 	return (0);
