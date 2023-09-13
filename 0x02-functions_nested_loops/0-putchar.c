@@ -1,16 +1,20 @@
-#include "main.h"
+#include <stdio.h>
 /**
- *main - main entery point
- *Description: A C prints __putchar
- *Return:Always 0 (Success)
-*/
+ * main - main entery point
+ * Description: prints _puchar
+ * Return: 0 success
+ */
 int main(void)
 {
-	char str[] =  "_putchar";
-	in ch;
+	putchar('_');
+	putchar('p');
+	putchar('u');
+	putchar('t');
+	putchar('c');
+	putchar('h');
+	putchar('a');
+	putchar('r');
+	putchar('\n');
 
-	for (ch = 0; ch < 8; ch++)
-		_putchar(str[ch]);
-	_putchar('\n');
 	return (0);
 }
