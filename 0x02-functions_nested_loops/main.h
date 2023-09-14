@@ -8,5 +8,5 @@
  * Return: Upon success, returns the character written as an unsigned char
  *         cast to an int. If an error occurs, returns -1.
  */
-int _putchar(char c) /
+int _putchar(char c);
 #endif /* MAIN_H */
