@@ -13,6 +13,12 @@
  * Description:prints alphabets in asci
  * Return:return alphabet in lower case (success)
  */
+/*
+ * print_alphabet_x10:writes all alphabet in lower case
+ * Description:prints alphabets in asci
+ * Return:return alphabet in lower case x10 times (success)
+ */
+
 int _putchar(char c);
 void print_alphabet(void);
 void print_alphabet_x10(void);
