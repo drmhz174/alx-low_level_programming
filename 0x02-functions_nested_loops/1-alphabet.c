@@ -1,14 +1,12 @@
 #include "main.h"
+
 /**
- *print_alphabet - code entery point
- *Description: A C prints alphabet lowercase
- *Return:Always 0 (Success)
+ * * print_alphabet - prints the alphabet in lowercase, followed by a new line.
 */
 void print_alphabet(void)
 {
-	int ch;
-
-	for (ch = 'a'; ch <= 'z'; ch++)
-		_putchar(ch);
-	_putchar('\n');
+int ch;
+for (ch = 'a'; ch <= 'z'; ch++)
+_putchar(ch);
+_putchar('\n');
 }

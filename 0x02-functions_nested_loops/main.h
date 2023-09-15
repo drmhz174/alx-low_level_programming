@@ -1,25 +1,23 @@
 #ifndef MAIN_H
 #define MAIN_H
-#include <stdio.h>
-/**
- * _putchar - Writes a character to the standard output.
- * @c: The character to be written.
- *
- * Return: Upon success, returns the character written as an unsigned char
- *         cast to an int. If an error occurs, returns -1.
- */
+
 /*
- * print_alphabet:writes all alphabet in lower case
- * Description:prints alphabets in asci
- * Return:return alphabet in lower case (success)
- */
-/*
- * print_alphabet_x10:writes all alphabet in lower case
- * Description:prints alphabets in asci
- * Return:return alphabet in lower case x10 times (success)
- */
+ *  * Desc: Header file containing declarations for all functions
+ *   *       used in the 0x02-functions_nested_loops directory.
+*/
 
 int _putchar(char c);
 void print_alphabet(void);
 void print_alphabet_x10(void);
-#endif /* MAIN_H */
+int _islower(int c);
+int _isalpha(int c);
+int print_sign(int n);
+int _abs(int);
+int print_last_digit(int);
+void jack_bauer(void);
+void times_table(void);
+int add(int, int);
+void print_to_98(int n);
+void print_times_table(int n);
+
+#endif
