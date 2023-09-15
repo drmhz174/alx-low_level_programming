@@ -1,21 +1,21 @@
 #include <stdio.h>
+
 /**
- * main-main entery point
- * Description:prints alphabets with anew line
- * Return: 0 success
+ *  * main - Prints the alphabet in lowercase, except for q and e.
+ *   *
+ *    * Return: Always 0.
 */
 int main(void)
 {
-	char ch = 'a';
+	char letter;
 
-	while (ch <= 'z')
+	for (letter = 'a'; letter <= 'z'; letter++)
 	{
-		if (ch == 'e' || ch == 'q')
-			ch++;
-		putchar(ch);
-	/*	putchar('\n');*/
-		ch++;
+		if (letter != 'e' && letter != 'q')
+			putchar(letter);
 	}
+
 	putchar('\n');
+
 	return (0);
 }

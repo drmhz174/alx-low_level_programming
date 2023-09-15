@@ -1,18 +1,19 @@
 #include <stdio.h>
 /**
- * main-main entery point
- * Description: print alphabetics in lowercase using putchar
- * Return: 0 (Success)
+ *  * main - main block
+ *   * Description: Use `putchar` function to print the alphabet in lowercase.
+ *    * Return: 0
 */
 int main(void)
 {
-	char ch = 'a'; /* Declare ch as a global variabl*/
+	char c = 'a';
 
-	while (ch <= 'z')
+	while (c <= 'z')
 	{
-		putchar(ch);
-		ch++;
+		putchar(c);
+		c++;
 	}
 	putchar('\n');
+
 	return (0);
 }
